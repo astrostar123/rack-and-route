@@ -99,6 +99,10 @@
       // JS_FileSystem_Sync() behavior, but in future Unity version, this will be
       // expected to change.
 
+      // The game draws exactly as many pixels as the window has CSS pixels (not 1.25x or 1.5x more on a
+      // screen with "display scaling"): about 40% fewer pixels to draw = a lot smoother on a laptop.
+      config.devicePixelRatio = 1;
+
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
 
@@ -109,9 +113,8 @@
         document.querySelector("#unity-container").className = "unity-mobile";
         canvas.className = "unity-mobile";
 
-        // To lower canvas resolution on mobile devices to gain some
-        // performance, uncomment the following line:
-        // config.devicePixelRatio = 1;
+        // (on a phone: not more pixels than the screen has points)
+        config.devicePixelRatio = 1;
 
 
       } else {
