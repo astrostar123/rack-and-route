@@ -32,7 +32,7 @@ Rack it, patch it, configure it, fix it. It's always the network's fault.
 | Esc | Pause menu (settings, save the lab) |
 | F1 | Tutorial and command cheat sheet |
 
-Your lab and settings are saved in your browser. A desktop browser (Chrome, Edge or Firefox) with a mouse and keyboard works best. The first load downloads about 33 MB.
+Your lab and settings are saved in your browser. The game starts on **Graphics: LOW** to run smoothly in a browser; you can raise it in the pause menu (Esc). A desktop browser (Chrome, Edge or Firefox) with a mouse and keyboard works best. The first load downloads about 33 MB.
 
 ![Mango, the office cat](mango.png)
 
