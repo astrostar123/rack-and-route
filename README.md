@@ -32,7 +32,7 @@ Rack it, patch it, configure it, fix it. It's always the network's fault.
 | Esc | Pause menu (settings, save the lab) |
 | F1 | Tutorial and command cheat sheet |
 
-Your lab and settings are saved in your browser. The game starts on **Graphics: LOW** to run smoothly in a browser; you can raise it in the pause menu (Esc). A desktop browser (Chrome, Edge or Firefox) with a mouse and keyboard works best. The first load downloads about 33 MB.
+Your lab and settings are saved in your browser. The game starts on **Graphics: LOW** to run smoothly in a browser; you can raise it in the pause menu (Esc). A desktop browser (Chrome, Edge or Firefox) with a mouse and keyboard works best. The first load downloads about 22 MB (the game files are Brotli-compressed).
 
 **If it is slow:** the game shrinks its own picture to fit your computer and tells you in the main menu when your browser is drawing with the CPU. In that case turn **hardware acceleration** on: Edge: Settings > System and performance > *Use graphics acceleration when available*; Chrome: Settings > System > *Use graphics acceleration when available*; then restart the browser. Press **F3** in the game to see the frames per second.
 
