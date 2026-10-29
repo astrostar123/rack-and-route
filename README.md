@@ -27,7 +27,7 @@ Rack it, patch it, configure it, fix it. It's always the network's fault.
 | R | Take a device out of its rack |
 | Q | Turn a device (in your hands, on the bench, on a desk) |
 | X | Put the cable away / remove a cable |
-| 1 – 6, mouse wheel | Cable type and colour |
+| 1 - 6, mouse wheel | Cable type and colour |
 | Tab | Inspection mode |
 | Esc | Pause menu (settings, save the lab) |
 | F1 | Tutorial and command cheat sheet |
